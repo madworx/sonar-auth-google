@@ -190,6 +190,14 @@ public class GoogleSettings {
         .category(CATEGORY)
         .subCategory(SUBCATEGORY)
         .index(index++)
+        .build(),
+      PropertyDefinition.builder(API_URL)
+        .name("Google API base URI")
+        .description("When set, this will override the base URI for profile requess to Google")
+        .defaultValue(DEFAULT_API_URL)
+        .category(CATEGORY)
+        .subCategory(SUBCATEGORY)
+        .index(index++)
         .build()
       );
   }

@@ -130,7 +130,7 @@ public class GoogleSettingsTest {
 
   @Test
   public void definitions() {
-    assertThat(GoogleSettings.definitions()).hasSize(7);
+    assertThat(GoogleSettings.definitions()).hasSize(8);
   }
 
 }

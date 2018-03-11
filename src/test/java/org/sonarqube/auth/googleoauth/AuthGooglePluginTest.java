@@ -49,7 +49,7 @@ public class AuthGooglePluginTest {
 
   @Test
   public void test_extensions() {
-    assertThat(underTest.getExtensions()).hasSize(11);
+    assertThat(underTest.getExtensions()).hasSize(12);
   }
 
 }
